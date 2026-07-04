@@ -2,7 +2,9 @@
 
 int main() {
 
-    int n,count=0;
+    int n,count;
+
+    count = 0;
 
     printf("This program takes a sentence from you and then encrypts in a language following a special numeric code.\n Enter the numeric code (must be between 1 - 25)...:");
     scanf("%d",&n);
